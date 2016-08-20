@@ -17,7 +17,7 @@ See [this documentation](https://docs.oracle.com/javase/8/docs/technotes/guides/
 
 There is two way for installation this tool:
 
-1. Download latest version from release page.**(recommended for end-users)**
+1. Download latest version from [release page](https://github.com/arVahedi/ARPGuard/releases/latest).**(recommended for end-users)**
 
 2. Clone or download repository and build from source.**(recommended for developers)**
 
