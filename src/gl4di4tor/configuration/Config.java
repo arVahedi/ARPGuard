@@ -1,5 +1,7 @@
 package gl4di4tor.configuration;
 
+import gl4di4tor.core.Core;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -34,6 +36,7 @@ public class Config {
         this.localInterface = config.getProperty("local.interface");
         this.routerInterface = config.getProperty("router.interface");
         this.trustedMacAddress = config.getProperty("trusted.mac");
+
     }
 
     public String getLocalInterface() {

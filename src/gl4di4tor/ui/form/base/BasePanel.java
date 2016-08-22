@@ -13,10 +13,10 @@ public abstract class BasePanel {
 
     protected BasePanel() throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
         this.mainFrame = new JFrame("ARP Guard");
+        this.mainFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         this.mainFrame.setSize(300, 300);
         this.mainFrame.setLocationRelativeTo(null);
         this.mainFrame.setLayout(new GridLayout(3, 1));
-        this.mainFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         this.mainFrame.setAlwaysOnTop(false);
 
         String className = getLookAndFeelClassName("Nimbus");
