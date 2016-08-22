@@ -8,8 +8,6 @@ This is a free-platform tool for protecting you against [ARP spoofing](https://e
 **Attention** : This tool is a detector engine that detects and alerts you if you will be under ARP spoofing attacks and doesn't prevent of this kind of attacks.
  (For preventing ARP spoofing see [this documentation](http://security.stackexchange.com/questions/43373/how-to-prevent-arp-poisoning-on-my-network)).
  
- **Note** : Currently version (1.0) supports only windows platform.We are working strongly for remove this limitation in next version.
-
 ##Pre-Installation
 
 This tool has been written in java language, so is free-platform and you will need jre (>= 8) on your machine for running that.
