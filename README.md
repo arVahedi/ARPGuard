@@ -1,6 +1,8 @@
 # ARPGuard
 (ARP Spoofing Detector Engine)
 
+![Alt ARPGuard](./arpGuard_logo.png)
+
 ## What is this?
 
 This is a free-platform tool for protecting you against [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) attacks on your local network.
