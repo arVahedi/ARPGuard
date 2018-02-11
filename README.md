@@ -1,7 +1,7 @@
 # ARPGuard
 (ARP Spoofing Detector Engine)
 
-![Alt ARPGuard](./arpGuard_logo.png)
+![Alt ARPGuard](./arpGuard_logo_small.png)
 
 ## What is this?
 
@@ -28,3 +28,7 @@ There is two way for installation this tool:
 For use this tool you should modify [configuration.properties](https://github.com/arVahedi/ARPGuard/blob/master/configuration.properties) file and set your local interface ip and router ip and trusted router mac address.After this step you can run jar file and you will be safe against ARP spoofing attacks.
 
 **Note** : Currently version (1.5) supports only one local interface and only router mac address for protection.We are working strongly for remove this limitation in next version.
+
+## Special thanks to a friend:
+
+**MASOOM_YMD** for graphical design the logo
