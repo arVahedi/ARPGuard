@@ -9,7 +9,7 @@ import java.awt.*;
 public abstract class BasePanel {
     protected JFrame mainFrame;
     protected JLabel copyRightLbl;
-    protected final static String COPY_RIGHT = "CopyRight © Gl4di4tor 2016, All Right Reserved.";
+    protected final static String COPY_RIGHT = "CopyRight © Gl4di4tor 2018, All Right Reserved.";
 
     protected BasePanel() throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
         this.mainFrame = new JFrame("ARP Guard");
