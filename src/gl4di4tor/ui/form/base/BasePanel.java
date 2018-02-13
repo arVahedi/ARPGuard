@@ -18,6 +18,8 @@ public abstract class BasePanel {
         this.mainFrame.setLocationRelativeTo(null);
         this.mainFrame.setLayout(new GridLayout(3, 1));
         this.mainFrame.setAlwaysOnTop(false);
+        ImageIcon icon = new ImageIcon(this.getClass().getResource("/gl4di4tor/resources/icon_small.png"));
+        this.mainFrame.setIconImage(icon.getImage());
 
         String className = getLookAndFeelClassName("Nimbus");
         UIManager.setLookAndFeel(className);

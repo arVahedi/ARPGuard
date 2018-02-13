@@ -1,7 +1,7 @@
 # ARPGuard
 (ARP Spoofing Detector Engine)
 
-![Alt ARPGuard](./arpGuard_logo_small.png)
+![Alt ARPGuard](./src/gl4di4tor/resources/icon_small.png)
 
 ## What is this?
 
